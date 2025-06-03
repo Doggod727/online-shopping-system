@@ -1,0 +1,6 @@
+[env]
+MYSQLCLIENT_LIB_DIR = "C:\\Program Files\\MySQL\\MySQL Server 8.0\\lib"
+MYSQLCLIENT_VERSION = "8.0"
+
+[target.x86_64-pc-windows-msvc]
+rustflags = ["-C", "link-arg=/LIBPATH:C:\\Program Files\\MySQL\\MySQL Server 8.0\\lib", "-C", "link-arg=/LIBPATH:C:\\Program Files\\MySQL\\MySQL Connector C++ 8.0\\lib64"]

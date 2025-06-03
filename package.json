@@ -1,0 +1,17 @@
+{
+  "name": "online-shopping-system",
+  "version": "1.0.0",
+  "description": "在线购物管理系统",
+  "scripts": {
+    "frontend": "cd frontend && npm start",
+    "backend": "cd backend && cargo run",
+    "start": "npm run frontend"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mui/x-date-pickers": "^8.4.0",
+    "date-fns": "^4.1.0",
+    "recharts": "^2.15.3"
+  }
+}
