@@ -98,11 +98,7 @@ cargo build
 1. 启动后端服务
    ```bash
    # 在backend目录下
-<<<<<<< HEAD
-   set DATABASE_URL=mysql://root:password@localhost/online_shopping
-=======
    set DATABASE_URL=mysql://root:123456@localhost/online_shopping
->>>>>>> 4dbf05f4695a4fbb6236377e2c5b754324caf69c
    set REDIS_URL=redis://127.0.0.1:6379/
    set HOST=127.0.0.1
    set PORT=8080
